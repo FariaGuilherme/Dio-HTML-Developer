@@ -1,0 +1,166 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    background-color: white;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+    background-color: rgb(5, 108, 108);
+}
+.menu-img {
+    width: 140px;
+    height: 140px;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-bottom: solid 2px white;
+
+}
+#logo {
+    width: 130px;
+    padding: 5px;
+}
+.menu-links {
+    list-style-type: none;
+    
+}
+.menu-links li {
+    padding: 3px;
+}
+.menu-links li a {
+    padding: 3px;
+    color: white;
+}
+.menu-links li a:hover {
+    color: lightgray;
+}
+.header {
+    min-height: 150px;
+    max-height: 150px;
+}
+.content {
+    background-color: white;
+    height: 600px;
+    max-height: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+   
+}
+.content-img {
+    padding: 10px;
+    width: 120px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 400px;
+    text-align: center;
+ }
+ .content-title {
+    margin-top: -10px;
+    text-align: center;
+    color:  rgb(5, 108, 108);
+ }
+ .content-title-2 {
+    margin-top: -10px;
+    text-align: center;
+    color:  rgb(5, 108, 108);
+ }
+ .mapa {
+    width: 435px;
+    height: 260px;
+    text-align: center;
+    padding-top: 6px;
+    float: left;
+    margin-left: 50px;
+    border-right: solid 1px;
+ }
+ .info {
+   width: 400px;
+   float: right;
+   margin-right: 50px;
+   margin-top: 50px;
+ }
+ .form-contato{
+    width: 700px;
+ }
+ .content-form {
+    margin-top: 290px;
+    min-height: 600px;
+    margin-left: 100px;
+ } 
+ .content-form fieldset {
+    width: 600px;
+ }
+.content-form legend {
+    color: rgb(5, 108, 108);
+ }
+ .content-form{
+    padding: 5px;
+ }
+ .input-msg {
+    float: right;
+    margin-top: -150px;
+    margin-right: 60px;
+ }
+.tabela-horario {
+    text-align: center;
+    margin-left: 220px;
+    margin-top: -10px;
+    cursor: pointer;
+ }
+ .tabela-horario thead th {
+    color: white;
+    background-color: rgb(31, 171, 171);
+ } 
+ .tabela-horario tbody tr:hover {
+    background-color: lightgray;
+ } 
+ .tabela-valor {
+    text-align: center;
+    margin-left: 220px;
+    margin-top: -10px;
+    cursor: pointer;
+ }
+ .tabela-valor thead th {
+    color: white;
+    background-color: rgb(31, 171, 171);
+ } 
+ .tabela-valor tbody tr:hover {
+    background-color: lightgray
+ } 
+ .lista-consultas h2 {
+    text-align: center;
+    color:  rgb(5, 108, 108);
+ }
+ .lista-consultas li {
+    padding: 3px;
+ }
+.footer {
+    min-height: 150px;
+    max-height: 150px;
+    background-color: #f1f1f16b 
+}
+ .footer-content{
+    text-align: center;
+    padding: 30px;
+}
+
